@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quest</title>
+  </head>
+  <body>
+    <header>
+        <h1>Quest for Kotenko Yanoslav</h1>
+        <p>Входной масив:</p>
+        <div class="array"></div>
+    </header>
+
+    <div class="task__1">
+      <h2>Функция нахождения максимального элемента в массиве.</h2>
+      <p>Результат:</p>
+      <div class="array__resMax">Результат:</div>
+    </div>
+
+    <div class="task__2">
+      <h2>Функция сортировки пузырьком.</h2>
+      <p>Результат сортировки масива:</p>
+      <div class="array__resBubble"></div>
+    </div>
+
+    
+
+    <div class="task__4">
+      <h2>Бинарный поиск по массиву</h2>
+      <form >
+        <input type="text" placeholder="Введи целое число" id="binary__num" />
+        <input
+          type="button"
+          id="binary_submit"
+          onclick="searchIdNum()"
+          value="Найти номер элемента"
+        />
+      </form>
+      <p>Результат:<p class="array__resBinary"></p>
+      </p>
+    </div>
+
+    <div class="task__6">
+        <h2>Полиндром</h2>
+        <form >
+          <input type="text" placeholder="Введи полиндром" id="palindrome" pattern="[A-Za-zА-Яа-яЁё]" required/>
+          <input
+            type="button"
+            id="polindrom_submit"
+            onclick="palindromeCheked(palindrome.value)"
+            value="Проверка на полиндром"
+          />
+        </form>
+        <p>Результат:<p class="array__resPalindrom"></p>
+        </p>
+      </div>
+  </body>
+
+  <script src="main.js"></script>
+</html>
