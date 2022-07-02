@@ -2,7 +2,7 @@ const arrayDiv = document.querySelector(".array")
 const resTaskOne = document.querySelector(".array__resMax")
 const resTaskTwo = document.querySelector(".array__resBubble")
 const binaryNumber = document.querySelector("#binary__num")
-const resTasFour = document.querySelector(".array__resBinary")
+const resTaskFour = document.querySelector(".array__resBinary")
 const resTaskSix = document.querySelector(".array__resPalindrom")
 
 let arrayNum = [88, 7, 15, 9, 8, 9, 8, 5, 10, 11, 15, 18]
@@ -37,7 +37,7 @@ function bubbleSort(arr) {
 }
 resTaskTwo.innerHTML = bubbleSort(arrayNum)
 
-//3)
+//3)Бинарный поиск
 
 function binarySearch(value, array) {
   let first = 0
